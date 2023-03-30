@@ -1,0 +1,38 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+
+
+.container{
+    width: 30%;
+    height: 230px;
+    border: 3px solid;
+    margin: 70px auto;
+    overflow-y: scroll;
+}
+
+.container p{
+    font-size: 30px;
+    font-weight: bold;
+}
+
+header {
+  position: sticky;
+  top: 0px;
+  z-index: 1;
+  height: 40px;
+  width: 100%;
+}
+.container-nav {
+  width: 100%;
+  background-color: grey;
+  font-size: 25px;
+  font-weight: bold;
+}
+
+.animals_items ul li{
+    list-style-type: none;
+}
